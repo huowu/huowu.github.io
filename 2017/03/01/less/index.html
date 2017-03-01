@@ -4,26 +4,29 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Hello World | 知行合一</title>
+    <title>less | 知行合一</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="huowu">
     
 
     
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+    <meta name="description" content="简介less 是对文件或其它输出进行分页显示的工具，应该说是Linux正统查看文件内容的工具，功能极其强大。less 里头可以拥有更多的搜索功能，不止可以向下搜，也可以向上搜。而且 less 在查看之前不会加载整个文件。
+命令格式less [参数]  文件
+命令参数-b &amp;lt;缓冲区大小&amp;gt; 设置缓冲区的大小-e  当文件显示结束后，自动离开-g  只标志最后搜索的关键词-f  强迫打开特殊">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/02/28/hello-world/index.html">
+<meta property="og:title" content="less">
+<meta property="og:url" content="http://yoursite.com/2017/03/01/less/index.html">
 <meta property="og:site_name" content="知行合一">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2017-02-28T13:23:53.000Z">
+<meta property="og:description" content="简介less 是对文件或其它输出进行分页显示的工具，应该说是Linux正统查看文件内容的工具，功能极其强大。less 里头可以拥有更多的搜索功能，不止可以向下搜，也可以向上搜。而且 less 在查看之前不会加载整个文件。
+命令格式less [参数]  文件
+命令参数-b &amp;lt;缓冲区大小&amp;gt; 设置缓冲区的大小-e  当文件显示结束后，自动离开-g  只标志最后搜索的关键词-f  强迫打开特殊">
+<meta property="og:updated_time" content="2017-03-01T15:58:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="less">
+<meta name="twitter:description" content="简介less 是对文件或其它输出进行分页显示的工具，应该说是Linux正统查看文件内容的工具，功能极其强大。less 里头可以拥有更多的搜索功能，不止可以向下搜，也可以向上搜。而且 less 在查看之前不会加载整个文件。
+命令格式less [参数]  文件
+命令参数-b &amp;lt;缓冲区大小&amp;gt; 设置缓冲区的大小-e  当文件显示结束后，自动离开-g  只标志最后搜索的关键词-f  强迫打开特殊">
 
     
     <link rel="alternative" href="/atom.xml" title="知行合一" type="application/atom+xml">
@@ -83,14 +86,14 @@ Quick">
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/02/28/hello-world/" title="Hello World" itemprop="url">Hello World</a>
+      <a href="/2017/03/01/less/" title="less" itemprop="url">less</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="huowu" target="_blank" itemprop="author">huowu</a>
 		
   <p class="article-time">
-    <time datetime="2017-02-28T13:23:53.000Z" itemprop="datePublished"> 发表于 2017-02-28</time>
+    <time datetime="2017-03-01T08:32:46.000Z" itemprop="datePublished"> 发表于 2017-03-01</time>
     
   </p>
 </header>
@@ -99,19 +102,46 @@ Quick">
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#简介"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#命令格式"><span class="toc-number">2.</span> <span class="toc-text">命令格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#命令参数"><span class="toc-number">3.</span> <span class="toc-text">命令参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用操作"><span class="toc-number">4.</span> <span class="toc-text">常用操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#进阶"><span class="toc-number">5.</span> <span class="toc-text">进阶</span></a></li></ol>
 		
 		</div>
 		
-		<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+		<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>less 是对文件或其它输出进行分页显示的工具，应该说是Linux正统查看文件内容的工具，功能极其强大。less 里头可以拥有更多的搜索功能，不止可以向下搜，也可以向上搜。而且 less 在查看之前不会加载整个文件。</p>
+<h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a>命令格式</h2><p>less [参数]  文件</p>
+<h2 id="命令参数"><a href="#命令参数" class="headerlink" title="命令参数"></a>命令参数</h2><p>-b &lt;缓冲区大小&gt; 设置缓冲区的大小<br>-e  当文件显示结束后，自动离开<br>-g  只标志最后搜索的关键词<br>-f  强迫打开特殊文件，例如外围设备代号、目录和二进制文件<br>-i  忽略搜索时的大小写<br>-m  显示类似more命令的百分比<br>-N  显示每行的行号<br>-o &lt;文件名&gt; 将less 输出的内容在指定文件中保存起来<br>-Q  不使用警告音<br>-s  显示连续空行为一行<br>-S  行过长时将超出部分舍弃<br>-x &lt;数字&gt; 将“tab”键显示为规定的数字空格</p>
+<h2 id="常用操作"><a href="#常用操作" class="headerlink" title="常用操作"></a>常用操作</h2><ol>
+<li>/字符串：向下搜索“字符串”的功能</li>
+<li>?字符串：向上搜索“字符串”的功能</li>
+<li>n：重复前一个搜索，向下查找下一个匹配的文本</li>
+<li>N：重复前一个搜索，向上查找下一个匹配的文本</li>
+<li>g：移动到第一行</li>
+<li>G：移动到最后一行</li>
+<li>y：向上滚动一行</li>
+<li>回车：向下滚动一行</li>
+<li>空格：向下翻一页</li>
+<li>b：向上翻一页</li>
+<li>v：进入编辑模式</li>
+<li>h  显示帮助界面</li>
+<li>q  退出less 命令</li>
+</ol>
+<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><ol>
+<li><p>浏览多个文件</p>
+<p> 方式一：</p>
+<p> less file1 file2</p>
+<p> 方式二：</p>
+<p> :e 打开第二个文件</p>
+<p> 多文件切换</p>
+<ol>
+<li><p>:n 浏览下一个文件</p>
+</li>
+<li><p>:p 浏览上一个文件</p>
+</li>
+</ol>
+</li>
+<li><p>less 版 tail -f</p>
+<p> less file-name 打开日志文件，执行F命令可以实现类似 tail -f 的效果</p>
+</li>
+</ol>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -124,7 +154,7 @@ Quick">
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://yoursite.com/2017/02/28/hello-world/" data-title="Hello World | 知行合一" data-tsina="null" class="share clearfix">
+	  <div data-url="http://yoursite.com/2017/03/01/less/" data-title="less | 知行合一" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -138,13 +168,21 @@ Quick">
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2017/02/28/kafka/" title="kafka">
+ <a href="/2017/03/01/kibana/" title="kibana">
   <strong>上一篇：</strong><br/>
   <span>
-  kafka</span>
+  kibana</span>
 </a>
 </div>
 
+
+<div class="next">
+<a href="/2017/02/28/kafka/"  title="kafka">
+ <strong>下一篇：</strong><br/> 
+ <span>kafka
+</span>
+</a>
+</div>
 
 </nav>
 
@@ -156,7 +194,7 @@ Quick">
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#简介"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#命令格式"><span class="toc-number">2.</span> <span class="toc-text">命令格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#命令参数"><span class="toc-number">3.</span> <span class="toc-text">命令参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用操作"><span class="toc-number">4.</span> <span class="toc-text">常用操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#进阶"><span class="toc-number">5.</span> <span class="toc-text">进阶</span></a></li></ol>
  
   </div>
 
